@@ -72,9 +72,6 @@ function state(action: "enable" | "disable") {
   }
 }
 ////////////Вкажіть типи для наступних функцій
-function showMessage(message): void {
-  console.log(message);
-}
 
 function calc(num1: number, num2: number): number {
   return num1 + num2;
