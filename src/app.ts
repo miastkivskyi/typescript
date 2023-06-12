@@ -41,8 +41,8 @@ if (typeof some === "string") {
   str = some;
 }
 //////Зробіть незмінний масив із суворо описаними типами. Масив для прикладу.
-let person: [string, number];
-person = ["Max", 21];
+let persons: [string, number];
+persons = ["Max", 21];
 /////Опишіть enum умову наступну: він повинен відображати статус завантаження. Завантажується (LOADING) та завантажена (READY).
 enum Status {
   LOADING,
@@ -108,3 +108,4 @@ const page2: Page = {
   accounts: ["Alex"],
   status: "close",
 };
+///////////////////////////////*//////////////////////////////////
